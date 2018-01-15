@@ -1,0 +1,23 @@
+{
+    "name": "wyrihaximus/dev-master",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ocramius/package-versions": "^1.2"
+    },
+    "autoload": {
+        "files": ["src/functions_include.php"]
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
